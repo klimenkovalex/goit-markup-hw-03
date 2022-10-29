@@ -1,0 +1,230 @@
+html {
+  box-sizing: border-box; 
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+
+.body {
+  font-family: "Roboto", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.list,
+li {
+  list-style: none;
+}
+
+.educetion {
+  width: 1600px;
+  border-color: #000000;
+  outline: #2196f3;
+}
+
+.main_educetion {
+}
+
+/* Header */
+
+.header {
+}
+
+/* Logo */
+
+.web {
+  font-family: "Raleway";
+  font-size: 26px;
+  line-height: calc(31 / 26);
+  color: #2196f3;
+}
+
+.webstudio {
+  font-family: "Raleway";
+  font-size: 26px;
+  line-height: calc(31 / 26);
+  color: #000000;
+}
+
+/* Navigation */
+
+.studio {
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  color: #2196f3;
+}
+
+.portfolio {
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  color: #212121;
+}
+
+.contacs {
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  color: #212121;
+}
+
+/* Top line */
+
+.mail {
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  color: #2196f3;
+}
+
+.tel {
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  color: #757575;
+}
+
+/* Hero */
+
+.hero {
+  background: #2f303a;
+}
+
+.hero_title {
+  font-size: 44px;
+  line-height: calc(60 / 44);
+  color: #ffffff;
+}
+
+.hero_btm {
+  width: 216px;
+  height: 50px;
+  border: #2196f3;
+  border-radius: 4px;
+  background-color: #2196f3;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.button_text {
+  width: 152px;
+  height: 30px;
+  font-size: 16px;
+  line-height: calc(30 / 16);
+  color: #fff;
+  display: inline-block;
+}
+
+/* Description */
+
+.description-list {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  color: #212121;
+}
+
+.coment {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #757575;
+}
+
+/* About */
+
+.about-work {
+  font-size: 36px;
+  line-height: calc(42 / 36);
+  color: #212121;
+}
+
+/* Our team */
+
+.team-people {
+  font-size: 36px;
+  line-height: calc(42 / 36);
+  color: #212121;
+}
+
+.name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(19 / 16);
+  color: #212121;
+}
+
+.team_work {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: calc(19 / 16);
+  color: #757575;
+}
+
+/* Section Portfolio */
+
+.button_listen {
+  width: 73px;
+  height: 38px;
+  background-color: #2196f3;
+  border: #2196f3;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.button_active {
+  width: 23px;
+  height: 26px;
+  color: #fff;
+}
+
+.button_portfolio {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(26 / 16);
+  color: #212121;
+  border-radius: 4px;
+  border: #212121;
+  cursor: pointer;
+}
+
+.about_name {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: calc(36 / 18);
+  color: #212121;
+}
+
+.about_text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: calc(30 / 16);
+  color: #757575;
+}
+
+/* Footer */
+
+.footer {
+  background: #2f303a;
+}
+
+.navigation {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: calc(24 / 14);
+  color: #ffffff;
+}
+
+.footer_mail {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: calc(24 / 14);
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer_tel {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: calc(24 / 14);
+  color: rgba(255, 255, 255, 0.6);
+}
