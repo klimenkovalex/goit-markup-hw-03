@@ -12,7 +12,7 @@
     />
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
     />
     <link rel="stylesheet" href="./Styles/styles.css" />
     <title>Web studio</title>
@@ -21,17 +21,20 @@
     <!--Header-->
     <header class="header">
       <!--Navigation-->
-      <div class="educetion">
+      <div class="conteiner">
         <nav>
-          <a href="./index.html" rel="noopeper noreforrer nofollow"
-            ><span class="web">Web</span
-            ><span class="webstudio">Studio</span></a
-          >
-          <ul class="list">
-            <li>
+          <ul class="header_list list">
+            <a
+              class="header_logo"
+              href="./index.html"
+              rel="noopeper noreforrer nofollow"
+              ><span class="web">Web</span
+              ><span class="webstudio">Studio</span></a
+            >
+            <li class="item">
               <a class="studio" href="">Студія</a>
             </li>
-            <li>
+            <li class="item">
               <a
                 class="portfolio"
                 href="./portfolio.html"
@@ -39,14 +42,14 @@
                 >Портфоліо</a
               >
             </li>
-            <li>
+            <li class="item">
               <a class="contacs" href="">Контакти</a>
             </li>
           </ul>
         </nav>
         <!--Top Line-->
-        <ul class="list">
-          <li>
+        <ul class="header_list list">
+          <li class="item">
             <a
               class="mail"
               href="mailto:info@devstudio.com"
@@ -54,7 +57,7 @@
               >info@devstudio.com</a
             >
           </li>
-          <li>
+          <li class="item">
             <a class="tel" href="tel:+380961111111">+380 96 111 11 11</a>
           </li>
         </ul>
@@ -62,118 +65,126 @@
     </header>
     <!--Hero-->
     <main class="main">
-      <div class="main_educetion">
-        <section class="hero">
+      <section class="section">
+        <div class="conteiner main_class">
           <h1 class="hero_title">Ефективні рішення для вашого бізнесу</h1>
           <button type="button" class="hero_btm">
             <span class="button_text">Замовити послугу</span>
           </button>
-        </section>
-      </div>
+        </div>
+      </section>
       <!--description-->
-      <section>
-        <ul class="description">
-          <li>
-            <h3 class="description-list">УВАГА ДО ДЕТАЛЕЙ</h3>
-            <p class="coment">
-              Ідейні міркування, і навіть початок повсякденної роботи з
-              формування позиції.
-            </p>
-          </li>
-          <li>
-            <h3 class="description-list">ПУНКТУАЛЬНІСТЬ</h3>
-            <p class="coment">
-              Завдання організації, особливо рамки і місце навчання кадрів тягне
-              у себе.
-            </p>
-          </li>
-          <li>
-            <h3 class="description-list">ПЛАНУВАННЯ</h3>
-            <p class="coment">
-              Так само консультація з широким активом значною мірою зумовлює.
-            </p>
-          </li>
-          <li>
-            <h3 class="description-list">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
-            <p class="coment">
-              Значимість цих проблем настільки очевидна, що реалізація планових
-              завдань.
-            </p>
-          </li>
-        </ul>
+      <section class="section">
+        <div class="conteiner">
+          <ul class="description">
+            <li>
+              <h3 class="description-list">УВАГА ДО ДЕТАЛЕЙ</h3>
+              <p class="coment">
+                Ідейні міркування, і навіть початок повсякденної роботи з
+                формування позиції.
+              </p>
+            </li>
+            <li>
+              <h3 class="description-list">ПУНКТУАЛЬНІСТЬ</h3>
+              <p class="coment">
+                Завдання організації, особливо рамки і місце навчання кадрів
+                тягне у себе.
+              </p>
+            </li>
+            <li>
+              <h3 class="description-list">ПЛАНУВАННЯ</h3>
+              <p class="coment">
+                Так само консультація з широким активом значною мірою зумовлює.
+              </p>
+            </li>
+            <li>
+              <h3 class="description-list">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+              <p class="coment">
+                Значимість цих проблем настільки очевидна, що реалізація
+                планових завдань.
+              </p>
+            </li>
+          </ul>
+        </div>
       </section>
       <!--About-->
-      <section>
-        <h2 class="about-work">Чим ми займаємося</h2>
-        <ul class="list">
-          <li>
-            <img src="./img/web.jpg" alt="Work1" width="370" />
-          </li>
-          <li>
-            <img src="./img/mob.jpg" alt="Work2" width="370" />
-          </li>
-          <li>
-            <img src="./img/disene.jpg" alt="Work3" width="370" />
-          </li>
-        </ul>
+      <section class="section">
+        <div class="conteiner">
+          <h2 class="about-work">Чим ми займаємося</h2>
+          <ul class="list">
+            <li>
+              <img src="./img/web.jpg" alt="Work1" width="370" />
+            </li>
+            <li>
+              <img src="./img/mob.jpg" alt="Work2" width="370" />
+            </li>
+            <li>
+              <img src="./img/disene.jpg" alt="Work3" width="370" />
+            </li>
+          </ul>
+        </div>
       </section>
       <!--Our team-->
-      <section class="team-people">
-        <h2>Наша команда</h2>
-        <ul class="list">
-          <li>
-            <img src="./img/igor.jpg" alt="user igor" width="270" />
-            <h3 class="name">Ігор Дем'яненко</h3>
-            <p class="team_work">Product Designer</p>
-          </li>
+      <section class="section">
+        <div class="conteiner">
+          <h2>Наша команда</h2>
+          <ul class="list">
+            <li>
+              <img src="./img/igor.jpg" alt="user igor" width="270" />
+              <h3 class="name">Ігор Дем'яненко</h3>
+              <p class="team_work">Product Designer</p>
+            </li>
 
-          <li>
-            <img src="./img/olga.jpg" alt="user olga" width="270" />
-            <h3 class="name">Ольга Рєпіна</h3>
-            <p class="team_work">Frontend Developer</p>
-          </li>
-          <li>
-            <img src="./img/mukola.jpg" alt="user mukola" width="270" />
-            <h3 class="name">Микола Тарасов</h3>
-            <p class="team_work">Marketing</p>
-          </li>
-          <li>
-            <img src="./img/muhailo.jpg" alt="user muhailo" width="270" />
-            <h3 class="name">Михайло Єрмаков</h3>
-            <p class="team_work">UI Designer</p>
-          </li>
-        </ul>
+            <li>
+              <img src="./img/olga.jpg" alt="user olga" width="270" />
+              <h3 class="name">Ольга Рєпіна</h3>
+              <p class="team_work">Frontend Developer</p>
+            </li>
+            <li>
+              <img src="./img/mukola.jpg" alt="user mukola" width="270" />
+              <h3 class="name">Микола Тарасов</h3>
+              <p class="team_work">Marketing</p>
+            </li>
+            <li>
+              <img src="./img/muhailo.jpg" alt="user muhailo" width="270" />
+              <h3 class="name">Михайло Єрмаков</h3>
+              <p class="team_work">UI Designer</p>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
     <!--Footer-->
     <footer class="footer">
-      <a href="./index.html" rel="noopeper noreforrer nofollow"
-        ><span class="web">Web</span><span class="webstudio">Studio</span></a
-      >
-      <address>
-        <ul class="list">
-          <li>
-            <a
-              class="navigation"
-              href="https://goo.gl/maps/btzMH1qsc4WPmSUG9"
-              rel="noopeper noreforrer nofollow"
-            >
-              м. Київ, пр-т Лесі Укріїнки, 26
-            </a>
-          </li>
-          <li>
-            <a
-              class="footer_mail"
-              href="mailto:info@devstudio.com"
-              rel="noopeper noreforrer nofollow"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li>
-            <a class="footer_tel" href="tel:+380961111111">+38096111111</a>
-          </li>
-        </ul>
-      </address>
+      <div class="conteiner">
+        <a href="./index.html" rel="noopeper noreforrer nofollow"
+          ><span class="web">Web</span><span class="webstudio">Studio</span></a
+        >
+        <address>
+          <ul class="list">
+            <li>
+              <a
+                class="navigation"
+                href="https://goo.gl/maps/btzMH1qsc4WPmSUG9"
+                rel="noopeper noreforrer nofollow"
+              >
+                м. Київ, пр-т Лесі Укріїнки, 26
+              </a>
+            </li>
+            <li>
+              <a
+                class="footer_mail"
+                href="mailto:info@devstudio.com"
+                rel="noopeper noreforrer nofollow"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li>
+              <a class="footer_tel" href="tel:+380961111111">+38096111111</a>
+            </li>
+          </ul>
+        </address>
+      </div>
     </footer>
   </body>
 </html>
