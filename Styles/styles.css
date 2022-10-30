@@ -40,7 +40,7 @@ li {
 
 .section {
   padding: 94px, 0;
-  border: 5px solid aqua;
+  /* border: 5px solid aqua; */
 }
 
 .conteiner {
@@ -48,7 +48,7 @@ li {
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
-  border: 3px solid red;
+  /* border: 3px solid red; */
 }
 
 /* Header */
