@@ -40,7 +40,7 @@ li {
 
 .section {
   padding: 94px, 0;
-  /* border: 5px solid aqua; */
+  border: 1px solid aqua;
 }
 
 .conteiner {
@@ -48,7 +48,8 @@ li {
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
-  /* border: 3px solid red; */
+  border: 1px solid red;
+  text-align: center;
 }
 
 /* Header */
@@ -64,12 +65,10 @@ li {
 
 .header .conteiner {
   display: flex;
-  align-items: center;
 }
 
 .header_logo {
   margin-left: 15px;
-  display: flex;
 }
 
 .header_list {
@@ -124,30 +123,30 @@ li {
 
 /* Hero */
 
-.main .main_class {
+.hero {
   background: #2f303a;
+  margin-bottom: 90px;
 }
 
 .main_class {
-  width: 1230px;
-  height: 600px;
-}
-
-.hero_title {
-  padding: 200px 300px;
-  display: inline-block;
-  font-size: 44px;
-  line-height: calc(60 / 44);
-  color: #ffffff;
   padding-bottom: 120px;
 }
 
+.hero_title {
+  font-size: 44px;
+  line-height: calc(60 / 44);
+  color: #ffffff;
+}
+
 .hero_btm {
-  border: #2196f3;
   border-radius: 4px;
+  padding: 10px 32px;
+  border: #2196f3;
+  min-width: 216px;
   background-color: #2196f3;
-  display: inline-block;
+  text-align: center;
   cursor: pointer;
+  text-decoration: none;
 }
 
 .button_text {
@@ -161,11 +160,26 @@ li {
 
 /* Description */
 
+.description {
+  padding: 0;
+}
+
+.conteiner > .description_title:not(:first-child) {
+  margin-right: 10px;
+}
+
+.description_title {
+  width: 270px;
+  display: inline-block;
+}
+
 .description-list {
+  /* padding-top: 20px; */
   font-weight: 400;
   font-size: 14px;
   line-height: calc(16 / 14);
   color: #212121;
+  display: inline;
 }
 
 .coment {
@@ -177,10 +191,18 @@ li {
 
 /* About */
 
+.about_conteiner {
+}
+
 .about-work {
+  text-align: center;
   font-size: 36px;
   line-height: calc(42 / 36);
   color: #212121;
+}
+.about_img {
+  display: inline-block;
+  flex-basis: calc((100% - 370px) / 3);
 }
 
 /* Our team */
