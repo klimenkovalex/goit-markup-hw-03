@@ -39,7 +39,7 @@ li {
 }
 
 .section {
-  padding: 94px, 0;
+  margin: 94px 215px;
   border: 1px solid aqua;
 }
 
@@ -55,6 +55,7 @@ li {
 /* Header */
 
 .header {
+  margin: 94px;
 }
 
 /* Navigation */
@@ -124,6 +125,7 @@ li {
 /* Hero */
 
 .hero {
+  margin: 0px;
   background: #2f303a;
   margin-bottom: 90px;
 }
@@ -207,7 +209,34 @@ li {
 
 /* Our team */
 
+.section_team {
+  margin: auto;
+  background-color: #f5f4fa;
+}
+
+.team_tekst {
+  text-align: center;
+}
+
+.user_team {
+  display: flex;
+}
+
+.list {
+  padding: 0px;
+}
+
+.team_img {
+  display: inline-block;
+  flex-basis: calc((100% - 270px) / 4);
+}
+.our_img {
+  margin: 30px;
+  background-color: #fff;
+}
+
 .name {
+  margin: 10px;
   font-weight: 500;
   font-size: 16px;
   line-height: calc(19 / 16);
@@ -222,6 +251,22 @@ li {
 }
 
 /* Section Portfolio */
+
+.section_portfolio {
+  background-color: yellow;
+}
+
+.conteiner_portfolio {
+  min-width: 1170px;
+  background-color: yellow;
+  display: inline;
+  flex-direction: row;
+}
+
+.list_portfolio {
+  /* display: inline;
+  flex-direction: row; */
+}
 
 .button_listen {
   width: 73px;
