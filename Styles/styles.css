@@ -12,15 +12,9 @@ h1,
 h2,
 h3,
 p,
-ul[class],
-ol[class],
+/* ul[class], */
+/* ol[class], */
 li {
-  margin: 0;
-}
-
-.body {
-  font-family: "Roboto", sans-serif;
-  padding: 0;
   margin: 0;
 }
 
@@ -28,6 +22,19 @@ li {
 li {
   list-style: none;
 }
+
+.list {
+  padding: 0px;
+  margin: 0px;
+}
+
+
+.body {
+  font-family: "Roboto", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
 
 .educetion {
   width: 1600px;
@@ -39,7 +46,7 @@ li {
 }
 
 .section {
-  margin: 94px 215px;
+  /* margin: 94px 215px; */
   border: 1px solid aqua;
 }
 
@@ -49,31 +56,52 @@ li {
   padding-left: 15px;
   padding-right: 15px;
   border: 1px solid red;
-  text-align: center;
+  /* text-align: center; */
 }
 
 /* Header */
 
 .header {
-  margin: 94px;
+  /* margin: 0; */
 }
 
 /* Navigation */
 
-.header_list .item {
-  margin-left: 50px;
-}
-
-.header .conteiner {
+.header_navi {
+  
   display: flex;
+  align-items: center;
 }
 
 .header_logo {
-  margin-left: 15px;
+  margin-left: 215px;
+  margin-right: 93px;
+}
+
+.header_list .item {
+  display: block;
+  padding-top: 25px;
+  padding-bottom: 24px;
+  background-color: tomato;
+}
+
+.header_list .item + .item {
+  margin-left: 50px;
 }
 
 .header_list {
   display: flex;
+}
+
+/* <!--Top Line--> */
+
+.out_list {
+  display: flex;
+  margin-left: auto;
+}
+
+.out_list .item + .item {
+  margin-left: 50px;
 }
 
 .web {
@@ -222,9 +250,6 @@ li {
   display: flex;
 }
 
-.list {
-  padding: 0px;
-}
 
 .team_img {
   display: inline-block;
