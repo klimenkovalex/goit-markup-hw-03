@@ -19,22 +19,23 @@
   </head>
   <body>
     <!--Header-->
-    <header class="header">
-      <!--Navigation-->
-      <div class="conteiner">
+    <header>
+      <div class="conteiner header_navi">
         <nav>
-          <a
-              class="header_logo"
-              href="./index.html"
-              rel="noopeper noreforrer nofollow"
-              ><span class="web">Web</span
-              ><span class="webstudio">Studio</span></a
-            >
-          <ul class="header_list list">         
+          <ul class="header_list list">
             <li class="item">
+              <a
+                class="header_logo"
+                href="./index.html"
+                rel="noopeper noreforrer nofollow"
+                ><span class="web">Web</span
+                ><span class="webstudio">Studio</span></a
+              >
+            </li>
+            <li class="header_item">
               <a class="studio" href="">Студія</a>
             </li>
-            <li class="item">
+            <li class="header_item">
               <a
                 class="portfolio"
                 href="./portfolio.html"
@@ -42,13 +43,13 @@
                 >Портфоліо</a
               >
             </li>
-            <li class="item">
+            <li class="header_item">
               <a class="contacs" href="">Контакти</a>
             </li>
           </ul>
         </nav>
         <!--Top Line-->
-        <ul class="header_list list">
+        <ul class="out_list list">
           <li class="item">
             <a
               class="mail"
@@ -63,37 +64,38 @@
         </ul>
       </div>
     </header>
+    <hr class="line">
     <!--Section Portfolio-->
-    <section class="section section_portfolio">
+    <section class="section">
       <div class="conteiner conteiner_portfolio">
         <ul class="list list_portfolio">
-          <li>
+          <li class="section_portfolio">
             <button type="button" class="button_listen">
               <span class="button_active">Усі</span>
             </button>
           </li>
-          <li>
+          <li class="section_portfolio">
             <button type="button" class="button_portfolio">Веб-сайти</button>
           </li>
-          <li>
+          <li class="section_portfolio">
             <button type="button" class="button_portfolio">Додатки</button>
           </li>
-          <li>
+          <li class="section_portfolio">
             <button type="button" class="button_portfolio">Дизайн</button>
           </li>
-          <li>
+          <li class="section_portfolio">
             <button type="button" class="button_portfolio">Маркетинг</button>
           </li>
         </ul>
-        <ul class="list list_portfolio">
-          <li>
+        <ul class="list img_portfolio">
+          <li class="portfolio_list">
             <a href="">
               <img src="./img/tegnocrack.jpg" alt="Technocrack" width="370" />
               <h3 class="about_name">Технокряк</h3>
               <p class="about_text">Веб-сайт</p>
             </a>
           </li>
-          <li>
+          <li class="portfolio_list">
             <a href="">
               <img
                 src="./img/poster-new-orlean.jpg"
@@ -104,7 +106,7 @@
               <p class="about_text">Дизайн</p>
             </a>
           </li>
-          <li>
+          <li class="portfolio_list">
             <a href="">
               <img
                 src="./img/sea-food.jpg"
@@ -115,7 +117,7 @@
               <p class="about_text">Додаток</p>
             </a>
           </li>
-          <li>
+          <li class="portfolio_list">
             <a href="">
               <img
                 src="./img/project-prime.jpg"
@@ -126,7 +128,7 @@
               <p class="about_text">Маркетинг</p>
             </a>
           </li>
-          <li>
+          <li class="portfolio_list">
             <a href="">
               <img
                 src="./img/project-boxes.jpg"
@@ -137,7 +139,7 @@
               <p class="about_text">Веб-сайт</p>
             </a>
           </li>
-          <li>
+          <li class="portfolio_list">
             <a href="">
               <img
                 src="./img/web-sait.jpg"
@@ -148,7 +150,7 @@
               <p class="about_text">Веб-сайт</p>
             </a>
           </li>
-          <li>
+          <li class="portfolio_list">
             <a href="">
               <img
                 src="./img/limited-edition.jpg"
@@ -159,7 +161,7 @@
               <p class="about_text">Дизайн</p>
             </a>
           </li>
-          <li>
+          <li class="portfolio_list">
             <a href="">
               <img
                 src="./img/projeckt-lab.jpg"
@@ -170,7 +172,7 @@
               <p class="about_text">Маркетинг</p>
             </a>
           </li>
-          <li>
+          <li class="portfolio_list">
             <a href="">
               <img
                 src="./img/groeinh-business.jpg"
@@ -186,13 +188,18 @@
     </section>
     <!-- Footer -->
     <footer class="footer">
-      <div class="conteiner">
-        <a href="./index.html" rel="noopeper noreforrer nofollow"
-          ><span class="web">Web</span><span class="webstudio">Studio</span></a
+      <div class="conteiner conteiner_footer">
+        <a
+          class="footer_web"
+          href="./index.html"
+          rel="noopeper noreforrer nofollow"
+        >
+          <span class="web">Web</span>
+          <span class="webstudio">Studio</span></a
         >
         <address>
-          <ul class="list">
-            <li>
+          <ul class="footer_list list">
+            <li class="footer_href">
               <a
                 class="navigation"
                 href="https://goo.gl/maps/btzMH1qsc4WPmSUG9"
@@ -201,7 +208,7 @@
                 м. Київ, пр-т Лесі Укріїнки, 26
               </a>
             </li>
-            <li>
+            <li class="footer_href">
               <a
                 class="footer_mail"
                 href="mailto:info@devstudio.com"
@@ -209,7 +216,7 @@
                 >info@devstudio.com</a
               >
             </li>
-            <li>
+            <li class="footer_href">
               <a class="footer_tel" href="tel:+380961111111">+38096111111</a>
             </li>
           </ul>
