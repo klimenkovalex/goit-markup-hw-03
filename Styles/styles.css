@@ -137,21 +137,37 @@ a {
 }
 
 .studio {
+  font-weight: 500;
   font-size: 14px;
   line-height: calc(16 / 14);
   color: #2196f3;
 }
 
+.studio:hover {
+  color: #212121;
+}
+
 .portfolio {
+  font-weight: 500;
   font-size: 14px;
   line-height: calc(16 / 14);
   color: #212121;
 }
 
+.portfolio:hover {
+  /* background-color: #2196f3; */
+}
+
 .contacs {
+  font-weight: 500;
   font-size: 14px;
   line-height: calc(16 / 14);
   color: #212121;
+}
+
+.portfolio:hover,
+.contacs:hover {
+  color: #2196f3;
 }
 
 /* Top line */
@@ -204,6 +220,9 @@ a {
   text-align: center;
   cursor: pointer;
   text-decoration: none;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: calc(30 / 16);
 }
 
 .button_text {
@@ -290,6 +309,9 @@ a {
 .team_tekst {
   padding-top: 94px;
   padding-bottom: 50px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: calc(42 / 36);
   text-align: center;
 }
 
@@ -373,7 +395,7 @@ a {
 }
 
 .portfolio_tekst {
-  /* padding: 20px 24px; */
+  width: 370px;
 }
 
 .portfolio_list {
@@ -490,6 +512,7 @@ a {
   font-size: 14px;
   line-height: calc(24 / 14);
   color: rgba(255, 255, 255, 0.6);
+  cursor: auto;
 }
 
 .footer_tel {
@@ -497,4 +520,5 @@ a {
   font-size: 14px;
   line-height: calc(24 / 14);
   color: rgba(255, 255, 255, 0.6);
+  cursor: auto;
 }
