@@ -14,6 +14,7 @@ h3,
 p,
 ol[class] {
   margin: 0;
+  text-decoration: none;
 }
 
 .list,
@@ -45,11 +46,14 @@ li {
   padding-left: 15px;
   padding-right: 15px;
   /* border: 1px solid red; */
-  /* text-align: center; */
 }
 
 .line {
   border: 1px solid #ececec;
+}
+
+a {
+  text-decoration: none;
 }
 
 /* Header */
@@ -125,6 +129,13 @@ li {
   color: #000000;
 }
 
+.web_studio {
+  font-family: "Raleway";
+  font-size: 26px;
+  line-height: calc(31 / 26);
+  color: #ffffff;
+}
+
 .studio {
   font-size: 14px;
   line-height: calc(16 / 14);
@@ -173,9 +184,10 @@ li {
 
 .hero_title {
   margin: auto;
+  text-transform: uppercase;
   width: 600px;
   padding-top: 200px;
-  margin-bottom: 20px;
+  padding-bottom: 20px;
   text-align: center;
   font-size: 44px;
   line-height: calc(60 / 44);
@@ -224,7 +236,7 @@ li {
 .description-list {
   margin-bottom: 10px;
   width: 270px;
-  font-weight: 400;
+  font-weight: 700;
   font-size: 14px;
   line-height: calc(16 / 14);
   color: #212121;
@@ -264,27 +276,39 @@ li {
   margin-right: 30px;
 }
 
+.about_img {
+  padding-bottom: 94px;
+}
+
 /* Our team */
 
 .section_team {
-  margin-bottom: 94px;
+  /* margin-bottom: 94px; */
   background-color: #f5f4fa;
 }
 
 .team_tekst {
-  margin-top: 94px;
-  margin-bottom: 94px;
+  padding-top: 94px;
+  padding-bottom: 50px;
   text-align: center;
 }
 
 .user_team {
   display: flex;
   /* background-color: #2196f3; */
+  text-align: center;
+  padding-bottom: 94px;
 }
 
 .team_img {
+  padding-bottom: 30px;
   width: 270px;
   background-color: #ffffff;
+}
+
+.team_img {
+  border-radius: 0px 0px 4px 4px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.12), 1px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 .team_img:not(:last-child) {
@@ -292,12 +316,13 @@ li {
 }
 
 .our_img {
+  padding-bottom: 30px;
   display: block;
   background-color: #fff;
 }
 
 .name {
-  margin: 10px;
+  padding-bottom: 10px;
   font-weight: 500;
   font-size: 16px;
   line-height: calc(19 / 16);
@@ -305,6 +330,7 @@ li {
 }
 
 .team_work {
+  padding-bottom: 30px;
   font-weight: 400;
   font-size: 16px;
   line-height: calc(19 / 16);
@@ -314,42 +340,39 @@ li {
 /* Section Portfolio */
 
 .section_portfolio {
-  background-color: #f5f5f5;
+  background-color: #ffff;
 }
 
 .conteiner_portfolio {
-  /* display: flex; */
   justify-content: end;
-  /* align-items: center; */
-  margin-top: 160px;
+  margin-top: 94px;
   border: 0px;
   /* background-color: #2196f3; */
 }
 
 .list_portfolio {
   display: flex;
-  margin-left: 312px;
-  /* justify-content: end; */
-  /* align-items: center; */
+  /* margin-left: 312px; */
   margin-bottom: 34px;
-  /* background-color: tomato; */
+  justify-content: center;
+  text-align: center;
 }
 
-.section_portfolio {
-  /* justify-content: center; */
-  /* text-align: center; */
+.link_portfolio {
   display: flex;
 }
 
-.section_portfolio:not(:last-child) {
+.link_portfolio:not(:last-child) {
   margin-right: 8px;
 }
 
 .img_portfolio {
   display: flex;
   flex-wrap: wrap;
+}
 
-  /* background-color: red; */
+.portfolio_tekst {
+  /* padding: 20px 24px; */
 }
 
 .portfolio_list {
@@ -365,8 +388,7 @@ li {
 }
 
 .button_listen {
-  width: 73px;
-  height: 38px;
+  padding: 6px 25px;
   background-color: #2196f3;
   border: #2196f3;
   border-radius: 4px;
@@ -374,20 +396,28 @@ li {
 }
 
 .button_active {
-  width: 23px;
-  height: 26px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(26 / 16);
+  text-align: center;
   color: #fff;
 }
 
 .button_portfolio {
-  height: 38px;
+  border-radius: 4px;
+  padding: 6px 22px;
+  background-color: #f5f4fa;
+  border: #f5f4fa;
+  cursor: pointer;
+}
+
+.button_prtfl {
   font-weight: 500;
   font-size: 16px;
   line-height: calc(26 / 16);
+  text-align: center;
   color: #212121;
-  border-radius: 4px;
   border: #212121;
-  cursor: pointer;
 }
 
 .about_name {
@@ -397,6 +427,7 @@ li {
   font-size: 18px;
   line-height: calc(36 / 18);
   color: #212121;
+  text-decoration: none;
 }
 
 .about_text {
@@ -412,13 +443,10 @@ li {
 /* Footer */
 
 .conteiner_footer {
-  /* flex-direction: row; */
-  /* margin-top: 60px; */
 }
 
 .footer {
   background: #2f303a;
-  /* height: 252px; */
 }
 
 .footer_web {
@@ -433,7 +461,6 @@ li {
 }
 
 .footer_href {
-  /* margin-bottom: 9px; */
 }
 
 .footer_href:not(:last-child) {
