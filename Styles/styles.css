@@ -369,6 +369,7 @@ a {
 .img_portfolio {
   display: flex;
   flex-wrap: wrap;
+  /* background-color: tomato; */
 }
 
 .portfolio_tekst {
@@ -379,12 +380,16 @@ a {
   width: 370px;
   border: 1px solid #eeeeee;
   margin-right: 30px;
-  margin-bottom: 8px;
+  margin-bottom: 30px;
   background-color: #ffffff;
 }
 
 .portfolio_list:nth-child(3n) {
   margin-right: 0;
+}
+
+.portfolio_list:nth-child(n + 7) {
+  margin-bottom: 8px;
 }
 
 .button_listen {
@@ -421,23 +426,29 @@ a {
 }
 
 .about_name {
-  padding-left: 24px;
-  padding-top: 20px;
+  width: 322px;
+  margin: 20px 24px 4px 24px;
+  /* padding-left: 24px;
+  padding-top: 20px; */
   font-weight: 700;
   font-size: 18px;
   line-height: calc(36 / 18);
   color: #212121;
   text-decoration: none;
+  /* background-color: royalblue; */
 }
 
 .about_text {
-  padding-top: 4px;
+  width: 322px;
+  margin: 0 24px 20px 24px;
+  /* padding-top: 4px;
   padding-left: 24px;
-  padding-bottom: 20px;
+  padding-bottom: 20px; */
   font-weight: 400;
   font-size: 16px;
   line-height: calc(30 / 16);
   color: #757575;
+  /* background-color: red; */
 }
 
 /* Footer */
