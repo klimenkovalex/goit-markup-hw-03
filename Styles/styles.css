@@ -56,6 +56,10 @@ a {
   text-decoration: none;
 }
 
+.footer {
+  cursor: none;
+}
+
 /* Header */
 
 .header {
@@ -180,7 +184,7 @@ a {
   font-size: 14px;
   line-height: calc(16 / 14);
   letter-spacing: 0.02em;
-  color: #212121;
+  color: #757575;
 }
 
 .tel {
@@ -370,7 +374,7 @@ a {
 
 .section_portfolio {
   padding-top: 94px;
-  padding-bottom: 8px;
+  padding-bottom: 94px;
   background-color: #ffff;
 }
 
@@ -451,7 +455,8 @@ a {
   padding: 6px 22px;
   background-color: #f5f4fa;
   border: #f5f4fa;
-  cursor: pointer;font-weight: 500;
+  cursor: pointer;
+  font-weight: 500;
   font-size: 16px;
   line-height: calc(26 / 16);
   letter-spacing: 0.03em;
@@ -542,6 +547,7 @@ a {
   font-size: 14px;
   line-height: calc(24 / 14);
   color: #ffffff;
+  cursor: auto;
 }
 
 .footer_mail {
